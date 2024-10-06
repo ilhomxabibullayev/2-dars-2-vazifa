@@ -52,7 +52,7 @@ body {
 }
 
 .header {
-    padding: 30px 0;
+    padding-top: 30px;
     background: #F5F5F5;
 }
 
@@ -104,19 +104,16 @@ body {
 }
 
 .hero {
-    padding-top: 30px;
-    background: #F5F5F5;
-}
-
-.hero__container {
-    display: flex;
-    align-items: start;
-    gap: 30px;
     background-image: url('https://s3-alpha-sig.figma.com/img/cadf/1358/fc45abd06353b29c8a7aafb7eac095a0?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iCPYuYlBfuxmTGJ1eSoGe5T8zdwcoiOh8rG5Z3j9CRJTe68wMnhp0IS6y3s8ag-5Lk3Ji5Ir3hfci7BXwg6ThrH2sIBIsi0G67cykf3f3uYZplvPKw5Yfpw-XQLxq3uckJkxzxMuLdZdcxFhkns4DOtedkQIdKr5~xKtbWxWEvHkLMGEkAp9F4DTYxuNvKW2PnFMs-sc0-AsITdYHZmwQwtjUpMVXuHHYXzEM4CTQDlULJW~v8~ysxyRQ~50qIHUEn8Zjhq0iiM~A-dde~nL8PBcjpZbvMvlgSp4Zkh6JPucq~JceXkxySP04iZCX-Rh01w8sGGPN-ltjrNtmcH1qQ__');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -265px;
+    background-position: center;
+    padding: 148px 137.5px 141.94px 127.5px;
+    gap: 0px;
+    opacity: 0px;
 }
+
+.hero__container {}
 
 .hero__btn {
     width: 166.54px;
@@ -429,6 +426,227 @@ body {
     font-size: 16.6px;
     font-weight: 400;
     line-height: 24px;
+    text-align: left;
+    color: #1E1F24;
+}
+
+
+
+.trajectory {
+    background-image: url('https://s3-alpha-sig.figma.com/img/a790/5593/9db0e257d99bf71924c10a74c7e8f217?Expires=1728864000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RzDKuvTBigT3w86NbpU94bv3VsLtqr6~hNLCc543s8ICsNvwuA8wjT6zl4h-3sCdJeqGSNSKutY79zNCZH-ki5F-BC0zOUytc7xaeR3RwuL1qi0Xs8bp1ZPoust2yeLJFfPsCxET5DYcAA7oY7PwzMAJYMAYvnQw56cgaqVS8TOpxNPFr1eUT9DI3tXroLOqqd~W9oY24~YGLD8~lUy4YHSJwWgcpuGDb-dMKc6vVcTRiEt7PKhY7tgu1yJU8evWN524-vgjd0sEdzmbqfNlz7BZTVoF6zSiWprb6nXG2RVShvRTQS67tDw9sIP40axTmRrAI2gi2OSJfOmTBlh0bg__');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 851px;
+    top: 4655.84px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.map {
+    padding: 100px 0;
+}
+
+.map__title {
+    font-family: Inter;
+    font-size: 47.8px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #1E1F24;
+    margin-bottom: 30px;
+}
+
+.map__text {
+    width: 1008px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #1E1F24;
+    margin-bottom: 15px;
+}
+
+.map__block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.map__number {
+    font-family: Inter;
+    font-size: 27.5px;
+    font-weight: 700;
+    line-height: 36.4px;
+    text-align: left;
+    color: #1D6CE3;
+}
+
+.map__sub-title {
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 36.4px;
+    text-align: left;
+    color: #1E1F24;
+}
+
+.map__sub2-title {
+    font-family: Inter;
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+    color: #1E1F24;
+    margin-top: -30px;
+    margin-bottom: 15px;
+}
+
+.map__box {
+    display: flex;
+    align-items: start;
+    gap: 80px;
+}
+
+.map__sub-text {
+    width: 198px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #1E1F24;
+    margin-bottom: 70px;
+}
+
+.map__card {
+    display: flex;
+    align-items: start;
+    gap: 50px;
+}
+
+.map__cart {
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.map__image {
+    width: 1170px;
+    height: 545.07px;
+    top: 124.98px;
+    gap: 0px;
+    border-radius: 30px 30px 30px 30px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 50px;
+}
+
+.course2 {
+    padding: 100px 0;
+    background: #F5F5F5;
+}
+
+.course2__title {
+    font-family: Inter;
+    font-size: 47.8px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #1E1F24;
+    margin-bottom: 30px;
+}
+
+.course2__btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 143.4px;
+    padding: 40px 70px 40px 70px;
+    gap: 0px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    background: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.course2__number {
+    font-family: Inter;
+    font-size: 17.9px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #1D6CE3;
+}
+
+.course2__sub-title {
+    font-family: Inter;
+    font-size: 28.3px;
+    font-weight: 600;
+    line-height: 36.4px;
+    text-align: left;
+    color: #1E1F24;
+}
+
+.course3 {
+    padding: 100px 0;
+}
+
+.course3__title {
+    font-family: Inter;
+    font-size: 47.8px;
+    font-weight: 600;
+    line-height: 57px;
+    text-align: left;
+    color: #1E1F24;
+    margin-bottom: 60px;
+}
+
+.course3__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.course3__block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.course3__number {
+    width: 36px;
+    height: 36px;
+    top: 9px;
+    padding: 5px 11.83px 5px 12.17px;
+    gap: 0px;
+    border-radius: 50%;
+    opacity: 0px;
+    background: #1D6CE3;
+    font-family: Inter;
+    font-size: 23.3px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.course3__text {
+    width: 280px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 18.4px;
+    font-weight: 400;
+    line-height: 27px;
     text-align: left;
     color: #1E1F24;
 }
